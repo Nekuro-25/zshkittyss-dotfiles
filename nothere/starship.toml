@@ -1,0 +1,17 @@
+add_newline = true
+format = "$directory$git_branch$git_status$character"
+
+[directory]
+style = "bold #8fc4dc"
+truncation_length = 3
+
+[git_branch]
+style = "#e0122e"
+symbol = " "
+
+[git_status]
+style = "#8a5566"
+
+[character]
+success_symbol = "[❯](bold #e0122e)"
+error_symbol   = "[❯](bold #7a1a2e)"
