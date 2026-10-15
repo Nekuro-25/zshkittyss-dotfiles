@@ -102,7 +102,7 @@ eval "$(zoxide init zsh)"
 
 # Autosuggestions
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#8a5566"
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#7689c5"
 
 # Syntax highlighting: HARUS paling akhir
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

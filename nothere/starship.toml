@@ -2,16 +2,16 @@ add_newline = true
 format = "$directory$git_branch$git_status$character"
 
 [directory]
-style = "bold #8fc4dc"
+style = "bold #a8c4ff"
 truncation_length = 3
 
 [git_branch]
-style = "#e0122e"
+style = "#8fa8f2"
 symbol = " "
 
 [git_status]
-style = "#8a5566"
+style = "#9aabe0"
 
 [character]
-success_symbol = "[❯](bold #e0122e)"
-error_symbol   = "[❯](bold #7a1a2e)"
+success_symbol = "[❯](bold #a8c4ff)"
+error_symbol   = "[❯](bold #f2829c)"
